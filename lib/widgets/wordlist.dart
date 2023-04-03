@@ -55,5 +55,6 @@ class _WordlistState extends State<Wordlist> {
   }) {
     final mainProvider = Provider.of<MainProvider>(context, listen: false);
     mainProvider.initList(word: word);
+
   }
 }
